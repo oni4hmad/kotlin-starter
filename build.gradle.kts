@@ -14,6 +14,9 @@ dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+
+    /* coroutines */
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1")
 }
 
 tasks.getByName<Test>("test") {
